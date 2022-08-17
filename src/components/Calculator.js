@@ -30,7 +30,7 @@ function Calculator() {
         <div className="col" onClick={()=>input('1')}>1</div>
         <div className="col" onClick={()=>input('4')}>4</div>
         <div className="col" onClick={()=>input('7')}>7</div>
-        <div className="col" onClick={blank}>C</div>
+        <div className="col-c" onClick={blank}>C</div>
       </div>
       <div className="row">
         <div className="col" onClick={()=>input('2')}>2</div>
@@ -45,10 +45,10 @@ function Calculator() {
         <div className="col" onClick={calculate}>=</div>
       </div>
       <div className="row">
-        <div className="col" onClick={()=>input('+')}>+</div>
-        <div className="col" onClick={()=>input('-')}>-</div>
-        <div className="col" onClick={()=>input('*')}>*</div>
-        <div className="col" onClick={()=>input('/')}>/</div>
+        <div className="col-1" onClick={()=>input('+')}>+</div>
+        <div className="col-1" onClick={()=>input('-')}>-</div>
+        <div className="col-1" onClick={()=>input('*')}>*</div>
+        <div className="col-1" onClick={()=>input('/')}>/</div>
       </div>
     </div>
   </div>
